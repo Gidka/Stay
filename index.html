@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome in Stay</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/b9e288c037.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="header">
+    <nav id="navBar">
+      <a href="/index.html">
+        <img src="./images/logo_white.png" alt="" class="logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#welcome" class="active">Welcome</a></li>
+        <li><a href="#outside">Travel Outside</a></li>
+        <li><a href="#share">Share</a></li>
+        <li><a href="#insp">Inspirations</a></li>
+      </ul>
+      <div class="btns">
+        <a href="#" class="login-btn">Log in</a>
+      </div>
+      <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+
+
+    <div class="modal hidden">
+      <br>
+      <br>
+
+      <button class="close-modal">&times;</button>
+      <div class="cont">
+        <div class="form-sign-in">
+          <h2>Welcome</h2>
+          <label>
+            <span>Email</span>
+            <input type="email" />
+          </label>
+          <label>
+            <span>Password</span>
+            <input type="password" />
+          </label>
+          <p class="forgot-pass">Forgot password?</p>
+          <button type="button" class="submit">Sign In</button>
+
+        </div>
+        <div class="sub-cont">
+          <div class="img">
+            <div class="img__text m--up">
+
+              <h3>Don't have an account? Please Sign up!<h3>
+            </div>
+            <div class="img__text m--in">
+
+              <h3>If you already has an account, just sign in.<h3>
+            </div>
+            <div class="img__btn">
+              <span class="m--up">Sign Up</span>
+              <span class="m--in">Sign In</span>
+            </div>
+          </div>
+
+          <div class="form-sign-up">
+            <h2>Create your Account</h2>
+            <label>
+              <span>Name</span>
+              <input type="text" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" />
+            </label>
+            <label>
+              <span>Password</span>
+              <input type="password" />
+            </label>
+            <button type="button" class="submit">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <h1>Find Your Next Stay</h1>
+      <div class="search-bar">
+        <form id="searchForm">
+          <div class="location-input">
+            <label for="">Location</label>
+            <input id="locationInput" type="text" placeholder="Where are you going?">
+          </div>
+          <div>
+            <label for="">Check in</label>
+            <input type="text" placeholder="Add Date">
+          </div>
+          <div>
+            <label for="">Check out</label>
+            <input type="text" placeholder="Add Date">
+          </div>
+          <div>
+            <label for="">Guest</label>
+            <input type="text" placeholder="Add Guest">
+          </div>
+          <button id="SearchBtn" type="submit"><img src="./images/search.png" alt=""></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="sub-title">In Europe</h2>
+    <div class="exclusives">
+      <div>
+        <a href="./pages/countries/greece.html">
+          <img src="./images/greece1.jpg" alt="">
+          <span>
+            <h3>Greece</h3>
+            <p>Starts @ $100</p>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/switzerland.html">
+          <img src="./images/image-2.png" alt="">
+          <span>
+            <h3>Switzerland</h3>
+            <p>Starts @ $200</p>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/austria.html">
+          <img src="./images/image-3.png" alt="">
+          <span>
+            <h3>Austria</h3>
+            <p>Starts @ $150</p>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/france.html">
+          <img src="./images/image-4.png" alt="">
+          <span>
+            <h3>France</h3>
+            <p>Starts @ $250</p>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/poland.html">
+          <img src="./images/poland.jpg" alt="">
+          <span>
+            <h3>Poland</h3>
+            <p>Starts @ $50</p>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/netherlands.html">
+          <img src="./images/image-6.png" alt="">
+          <span>
+            <h3>Netherlands</h3>
+            <p>Starts @ $200</p>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/germany.html">
+          <img src="./images/germany.jpg" alt="">
+          <span>
+            <h3>Germany</h3>
+            <p>Starts @ $180</p>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/italy.html">
+          <img src="./images/italy1.jpg" alt="">
+          <span>
+            <h3>Italy</h3>
+            <p>Starts @ $120</p>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/spain.html">
+          <img src="./images/spain.jpg" alt="">
+          <span>
+            <h3>Spain</h3>
+            <p>Starts @ $300</p>
+          </span>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/ireland.html">
+          <img src="./images/ireland.jpg" alt="">
+          <span>
+            <h3>Ireland</h3>
+            <p>Starts @ $180</p>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="sub-title" id="outside">Outside Europe</h2>
+    <div class="tranding">
+      <div>
+        <a href="./pages/countries/egypt.html">
+          <img src="./images/egypy.jpg" alt="">
+          <h3>Egypt</h3>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/turkey.html">
+          <img src="./images/turkey.jpg" alt="">
+          <h3>Turkey</h3>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/thailand.html">
+          <img src="./images/thailand.jpg" alt="">
+          <h3>Thailand</h3>
+        </a>
+      </div>
+      <div>
+        <a href="./pages/countries/usa.html">
+          <img src="./images/usa.jpg" alt="">
+          <h3>United States of America</h3>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="cta" id="share">
+      <h3>Sharing <br> Is Earning</h3>
+      <p>Great opportunity to make money by <br> sharing your extra space.</p>
+      <a href="#" class="cta-btn">Know More</a>
+    </div>
+    <div id="insp">
+      <h2 class="sub-title">Get inspired</h2>
+      <div class="stories">
+        <div class="image-container">
+          <img src="./images/family.jpg" alt="">
+          <div class="text-overlay">
+            <a href="/family.html">
+              <p>Travel with the whole family to child-friendly destinations</p>
+            </a>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="./images/spool.jpg" alt="">
+          <div class="text-overlay">
+            <a href="#">
+              <p>Enjoy accommodation with a private pool</p>
+            </a>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="./images/pet.jpg" alt="">
+          <div class="text-overlay">
+            <a href="#">
+              <p>Take your pet on great adventures</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="start-btn">Start making money</a>
+    <div class="about-msg">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores similique dolore voluptatem molestias quasi
+        amet, voluptates autem pariatur sit laborum ducimus ipsum voluptatibus harum iste consequuntur, sint hic!
+        Praesentium, voluptates qui. Voluptatem, praesentium iste atque incidunt perferendis sunt velit labore
+        laudantium nemo repudiandae corporis suscipit inventore eius consectetur nulla fugiat. Itaque dicta illo quae
+        sit in inventore, ad esse quaerat natus beatae ipsa fugiat! Eveniet, officia corrupti. Nam perspiciatis
+        reprehenderit deserunt repellendus rem error corporis nihil officiis expedita, illum, nisi dolorem cum,
+        laudantium similique? Non dolor, esse laboriosam deserunt hic saepe facilis atque amet quisquam, in suscipit
+        illum dolorum officiis!</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+    <hr>
+    <p>Copyright @ 2023</p>
+  </div>
+
+  </div>
+
+
+
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
